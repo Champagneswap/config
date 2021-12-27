@@ -1,6 +1,6 @@
 {
   "name": "@champagneswap/prettier-config",
-  "private": false,
+  "access": "public",
   "scripts": {
     "publish": "yarn workspaces foreach npm publish --tolerate-republish"
   },
