@@ -1,5 +1,5 @@
 {
-  "name": "@champagneswap/config",
+  "name": "prettier-config",
   "private": false,
   "scripts": {
     "publish": "yarn workspaces foreach npm publish --tolerate-republish"
@@ -9,5 +9,21 @@
   ],
   "dependencies": {
     "semver": "^7.3.5"
-  }
+  },
+  "description": "ChampagneSwap config monorepo.",
+  "version": "1.0.0",
+  "main": "package.json",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Champagneswap/config.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Champagneswap/config/issues"
+  },
+  "homepage": "https://github.com/Champagneswap/config#readme"
 }
