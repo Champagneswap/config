@@ -1,0 +1,10 @@
+{
+  "name": "config",
+  "private": true,
+  "scripts": {
+    "publish": "yarn workspaces foreach npm publish --tolerate-republish"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
